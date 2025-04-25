@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom Real Estate colors
+				'real-estate': {
+					'primary': '#2563eb',    // Primary blue
+					'secondary': '#3b82f6',  // Secondary blue
+					'accent': '#f97316',     // Accent orange
+					'success': '#10b981',    // Success green
+					'error': '#ef4444',      // Error red
+					'light': '#f3f4f6',      // Light gray
+					'dark': '#1e293b',       // Dark text
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
