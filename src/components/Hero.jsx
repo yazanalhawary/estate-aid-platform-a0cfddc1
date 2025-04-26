@@ -4,9 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 
-/**
- * @returns {React.JSX.Element}
- */
 const Hero = () => {
   return (
     <section className="relative">
