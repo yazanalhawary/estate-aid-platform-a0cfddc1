@@ -1,3 +1,4 @@
+
 import React from 'react';
 import PropertyCard from './PropertyCard';
 import { Button } from '@/components/ui/button';

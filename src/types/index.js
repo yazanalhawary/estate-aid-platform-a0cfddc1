@@ -42,4 +42,4 @@
  * @property {string} updatedAt
  */
 
-export {}
+export {};
