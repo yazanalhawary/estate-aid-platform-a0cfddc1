@@ -4,6 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 
+/**
+ * @returns {React.JSX.Element}
+ */
 const Hero = () => {
   return (
     <section className="relative">
@@ -12,6 +15,7 @@ const Hero = () => {
         <div className="absolute inset-0 hero-gradient opacity-90"></div>
       </div>
       
+      {/* Content */}
       <div className="relative container mx-auto px-4 py-24 md:py-32">
         <div className="max-w-3xl mx-auto text-center text-white">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">

@@ -1,10 +1,12 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Home, User, Menu, X, Search, Heart, MessageSquare, Bell } from "lucide-react";
 import { AuthModal } from './AuthModal';
 
-const Navbar: React.FC = () => {
+/**
+ * @returns {React.JSX.Element}
+ */
+const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [authModalOpen, setAuthModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
